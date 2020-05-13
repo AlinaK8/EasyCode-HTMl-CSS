@@ -1,0 +1,89 @@
+/* default styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-transform {
+    text-transform: capitalize
+}
+
+
+/* custom styles */
+.goods-wrapper {
+    display: inline-block;
+    align-items: center;
+}
+
+.page-title {
+    letter-spacing: 2px;
+}
+
+.page-subtitle {
+    color: firebrick;
+    letter-spacing: 2px;
+}
+
+.clothes-item img {
+    width: 400px;
+    text-align: initial;
+    margin-left: 20%;
+}
+
+.clothes-item {
+    width: 700px;
+    padding: 30px;
+    text-align: justify;
+}
+
+div a:hover {
+    color: red;
+}
+
+div img:hover {
+    border: 5px dotted gray;
+}
+
+p:nth-of-type(even) {
+    border-bottom: 2px dashed gray;
+}
+
+p:nth-of-type(odd) {
+    line-height: 30px;
+}
+
+div.clothes-item:nth-child(even){
+    background-color: snow;
+}
+
+.notification {
+    margin-top: 30px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+
+}
+
+.notification a:hover {
+    color: lawngreen;
+}
+
+p.notification::before {
+    display: block;
+    content: "";
+    height: 10px;
+    background: indianred;
+}
+
+p.notification::after {
+    display: block;
+    content: "";
+    height: 10px;
+    background: indianred;
+}

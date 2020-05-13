@@ -1,0 +1,83 @@
+/* default styles */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.align-center {
+    text-align: center;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+/* custom styles */
+
+.cv-wrapper {
+    align-items: center;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+a:hover {
+    color: red;
+}
+
+.cv-wrapper div {
+    width: 700px;
+    text-align: justify;
+    margin: 20px;
+}
+
+h3{
+    color: Chocolate;
+}
+
+.cv-header li:nth-of-type(odd) {
+    background-color: snow;
+}
+
+.cv-header li:nth-last-child(1){
+    border-bottom: 2px dashed gray;
+}
+
+ul li {
+    padding: 5px;
+}
+
+.summary p {
+    font-style: oblique; 
+    padding: 8px;
+}
+
+.summary {
+    border: double;
+    background-color: mistyrose;
+
+}
+
+.cv-header h3 {
+    text-decoration: underline;
+}
+
+.skills {
+    border-left: 3px inset gray;
+    border-right: 3px inset gray;
+}
+
+
+.skills-list li:nth-child(-n+4) {
+    background-color: seashell;
+}
+
+.languages {
+    border: outset;
+}
+
+.languages li:nth-last-child(2) {
+    background-color: LavenderBlush;
+}

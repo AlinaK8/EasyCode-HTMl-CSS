@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'debby';
+    src: url("../fonts/debby.woff") format(woff),
+         url('../fonts/Debby.ttf'),
+         url('../fonts/Debby.otf');
+}
+
+@font-face {
+    font-family: 'MullerRegular';
+    src: url("../fonts/MullerRegular.woff") format(woff);
+}
+
+/* Reset start */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	color: #212121;
+	font: 400 14px/1 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover, a:active{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+/* Reset end */
+
+.container {
+    max-width: 1989px;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    background-color:#001122;
+
+    padding: 0 180px;
+    height: 159px;
+}
+
+.left-side {
+    float: left;
+}
+
+.header .logo {
+    margin: 30px 0;
+    width: 70px;
+    float: left;
+}
+
+.header-nav li {
+    float: left;
+    padding-left: 82px;
+    color: #fff;
+    font-family: 'MullerRegular';
+}
+
+.header-nav, .social-nav {
+    float: right;
+    margin-top: 70px;
+}
+
+.social-nav li {
+    padding-right: 19px;
+    float: left;
+}   
+
+.main {
+    overflow: hidden;
+}
+.main .inner {
+    /* overflow: hidden; */
+
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vh - 159px);
+    text-align: center; 
+    padding-top: 200px;
+}
+
+.inner .inner-content .inner-description{
+    height: 213px;
+    color: #ffffff;
+    line-height: 100px;
+    font-family: 'debby';  
+    margin-bottom: 90px;
+    font-weight: 400;
+}
+.inner .inner-description :first-child {
+    font-size: 150px;
+}
+
+.inner .inner-content .inner-description :nth-child(2) {
+    font-size: 120px;
+}
+.inner .inner-content .inner-description :last-child {
+    font-size: 72px;
+}
+
+.inner .inner-btn {
+    width: 396px;
+    height: 84px;
+    background-color: #771111;
+    text-align: center;
+
+    display: inline-block;
+	max-width: 395px;
+	vertical-align: middle;
+
+}
+
+.inner .inner-btn .inner-btn-text {
+    color: #ffffff;
+    font-family: "MullerRegular";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.inner .inner-btn:hover {
+    background-color:#ff6700;
+}
+
+
+/*  */
